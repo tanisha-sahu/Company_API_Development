@@ -8,8 +8,8 @@ export const getCompanies = async (filters = {}) => {
   );
 
   const params = new URLSearchParams(cleanedFilters).toString();
-  const url = params ? `${API_URL}?${params}` : API_URL;
-  const res = await axios.get(`${url}/list`);
+  const url = params ? `${API_URL}/list?${params}` : `${API_URL}/list`;
+  const res = await axios.get(url);
   return res.data;
 };
 
