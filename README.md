@@ -94,12 +94,12 @@ cd Company_API_Development
 
 ## 📋 API Endpoints
 
-| Method | Endpoint               | Description            |
-|--------|------------------------|------------------------|
-| GET    | `/api/companies`       | List & filter companies|
-| POST   | `/api/companies`       | Add a new company      |
-| PUT    | `/api/companies/:id`   | Update a company       |
-| DELETE | `/api/companies/:id`   | Delete a company       |
+| Method | Endpoint                   | Description            |
+|--------|----------------------------|------------------------|
+| GET    | `/api/companies/list`      | List & filter companies|
+| POST   | `/api/companies/create`    | Add a new company      |
+| PUT    | `/api/companies/edit/:id`  | Update a company       |
+| DELETE | `/api/companies/delete/:id`| Delete a company       |
 
 ---
 
